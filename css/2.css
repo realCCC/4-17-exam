@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.head {
+  text-align: center;
+}
+
+.학번 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li>a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+}
+
+.목록 {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 1400px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content li {
+  width: 20%;
+  height: 35px;
+  border-radius: 20px;
+}
+
+ul li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  outline: solid black;
+}
+
+.video {
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.top .mid1 {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+
+}
+
+.top .mid2 {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+}
+
+.top img {
+  width: 400px;
+  height: 300px;
+}
+
+/* one */
+.one_one {
+  width: 400px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.one_three {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: 0.5s linear;
+}
+
+.one_one:hover .one_three {
+  opacity: 1;
+}
+
+/* two */
+.two_one {
+  width: 400px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.two_three {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: 0.5s linear;
+}
+
+.two_one:hover .two_three {
+  opacity: 1;
+}
+
+/* three */
+.three_one {
+  width: 400px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.three_three {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: 0.5s linear;
+}
+
+.three_one:hover .three_three {
+  opacity: 1;
+  /* four */
+}
+
+.four_one {
+  width: 400px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.four_three {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: 0.5s linear;
+}
+
+.four_one:hover .four_three {
+  opacity: 1;
+}
+
+footer>div {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
